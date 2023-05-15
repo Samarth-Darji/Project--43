@@ -5,8 +5,6 @@ var form, player, playerCount;
 var allPlayers, animal1, animal2,bush, grass;
 var animals = [];
 var bushImage, grassImage;
-var arr1 = [[1,2], [3,4], [5,6]];
-
 //BP
 function preload() {
   backgroundImage = loadImage("./assets/background.jpg");
@@ -41,7 +39,6 @@ function draw() {
     game.showLeaderboard();
     game.end();
   }
-  console.log(arr1[2],[0])
 }
 
 function windowResized() {
